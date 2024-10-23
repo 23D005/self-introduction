@@ -6,31 +6,61 @@
     <title>自己紹介</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
         h1 {
-            color: #333;
+            margin: 0;
         }
         h2 {
-            color: #555;
+            color: #343a40;
+            margin-top: 15px;
         }
         p {
             line-height: 1.6;
+            color: #495057;
         }
-        .profile {
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #007bff;
+            margin: 20px auto;
+            display: block;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            color: #6c757d;
         }
     </style>
 </head>
 <body>
 
-    <div class="profile">
+    <header>
         <h1>自己紹介</h1>
+    </header>
+
+    <div class="container">
+        <img src="1.jpg" alt="白川町民"class="profile-image">
+        
         <h2>名前</h2>
         <p>今井　景丸</p>
 
@@ -38,14 +68,18 @@
         <p>19歳</p>
 
         <h2>趣味</h2>
-        <p>ゲーム、キャンプ、旅、など</p>
+        <p>ゲーム、キャンプ、旅</p>
 
         <h2>職業</h2>
         <p>学生</p>
 
         <h2>自己紹介</h2>
-        <p>おはこんばんにちは！景丸（かげまる）です！人からは良く忍者みたいな名前と言われます。ゲームが好きなキャンパー、アウトドアなゲーマーです（笑）好きな音楽は「big rice piano」という方の「BREATH」という曲です。将来は山間の広い田んぼだらけの田舎で、ヒグラシの声を聴きながらお茶を飲むのが夢です。よろしくお願いします！</p>
+        <p>おはこんばんにちは！景丸（かげまる）です！ゲームが好きなキャンパー、アウトドアなインドアです。好きなものとして、趣味であるゲーム、キャンプ、旅のほか、銃や戦闘機などの兵器、車、日本各地の田舎を眺めたり、ジャズピアノを聴いたりするのがすきです。</p>
     </div>
+
+    <footer>
+        <p>© 2023 今井　景丸</p>
+    </footer>
 
 </body>
 </html>
